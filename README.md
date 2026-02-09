@@ -12,13 +12,13 @@ The X-CDTL framework identifies universal structural patterns (structural anchor
 The core innovation is the **IIT mechanism**, which uses Explainable AI to find the most stable features for transferring information, even when data is scarce or noisy.
 
 ## 2. Repository Structure
-The analysis is divided into 5 sequential Jupyter Notebooks:
+The complete analysis is provided in a single, comprehensive Jupyter Notebook (`IIT_X-CDTL.ipynb`), organized into 5 sequential functional modules:
 
-*   **Module 1**: Data loading, feature extraction, and identification of the universal **Structural Anchors** using the IIT score.
-*   **Module 2**: Visualization of how the topological features are distributed across the four domains (Boxplots).
-*   **Module 3**: The actual Transfer Learning experiments. It uses GPU acceleration to align different domains and detect anomalies.
-*   **Module 4**: Predictive validation. It generates the regression plots showing how well our IIT score predicts the real transfer performance.
-*   **Module 5**: Final statistical analysis and performance curves under different levels of noise and data scarcity.
+*   **Module 1**: Data loading, feature extraction, and Structural Anchor identification.
+*   **Module 2**: Statistical profiling and visualization (Boxplots).
+*   **Module 3**: Transfer Learning experiments and Manifold Alignment.
+*   **Module 4**: Predictive validation (TGI vs IIT_score).
+*   **Module 5**: Meta-analysis and performance decay curves.
 
 ## 3. How to use this code
 1.  **Requirements**: You need Python installed. We recommend using a virtual environment.
